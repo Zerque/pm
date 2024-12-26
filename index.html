@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zeraki Product Management</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="login-container">
+    <div class="login-card">
+      <div class="login-header">
+        <img src="Zeraki Logo.jpeg" alt="Zeraki Logo">
+        <h2>Zeraki Product Management</h2>
+        <p>Log in to manage your products efficiently</p>
+      </div>
+      <div class="login-form">
+        <input type="email" id="email" placeholder="Enter your work email" class="input-field">
+        <button id="login-button" class="login-button">Log In</button>
+        <div id="login-error" class="error-message"></div>
+      </div>
+    </div>
+  </div>
+  <div id="app" style="display: none;">
+    <div id="role-info"></div>
+    <div id="content"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

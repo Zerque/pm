@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zeraki Product Management</title>
+    <style>
+        /* Reset and Basic Styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: #007BFF;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 1.2em;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #0056b3;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            transition: background 0.3s;
+        }
+
+        nav a:hover {
+            background: #007BFF;
+            border-radius: 5px;
+        }
+
+        section {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .card {
+            background: #fff;
+            margin: 10px;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .card h3 {
+            font-size: 1.5em;
+            color: #007BFF;
+        }
+
+        .card p {
+            font-size: 1em;
+            margin: 10px 0;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background: #0056b3;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .card {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Zeraki Product Management</h1>
+        <p>Streamline your product feedback and sprint management.</p>
+    </header>
+    <nav>
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="index.html">Login</a>
+    </nav>
+    <section id="features">
+        <h2 style="text-align: center; margin-bottom: 20px;">Features</h2>
+        <div class="container">
+            <div class="card">
+                <a href="feedback.html">
+                    <h3>Feedback Management</h3>
+                    <p>Collect, organize, and prioritize user feedback effortlessly.</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="idea.html">
+                    <h3>Idea Backlog</h3>
+                    <p>Vote and promote features from the idea backlog to the product backlog.</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="product.html">
+                    <h3>Product Backlog</h3>
+                    <p>Define user stories, acceptance criteria, and move features to sprints.</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="sprint.html">
+                    <h3>Sprint Management</h3>
+                    <p>Plan sprints with start/end dates, story points, and assigned team members.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about">
+        <h2 style="text-align: center; margin-bottom: 20px;">About Zeraki</h2>
+        <p style="text-align: center; max-width: 800px; margin: 0 auto;">
+            Zeraki Product Management is a comprehensive tool designed for teams to collect feedback, manage ideas, and organize sprints efficiently. Built with simplicity and power in mind, Zeraki helps you deliver better products faster.
+        </p>
+    </section>
+    <section id="contact">
+        <h2 style="text-align: center; margin-bottom: 20px;">Contact Us</h2>
+        <p style="text-align: center;">Have questions or need support? Reach us at <a href="mailto:support@zeraki.app">support@zeraki.app</a>.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Zeraki Product Management. All rights reserved.</p>
+    </footer>
+</body>
+</html>
